@@ -34,7 +34,7 @@ header .menu nav a:hover {
 }
 
 #welcome {
-  background-image: url("../../../assests/home.jpg");
+  background-image: url("assests/home.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,5 +42,22 @@ header .menu nav a:hover {
 }
 #welcome .box {
   position: absolute;
-  top: 60px;
+  top: 267px;
+  /* z-index: 1; */
+  left: 674px;
+}
+#welcome .box h1 {
+  color: #ffffff;
+  font-size: 40px;
+  margin: 18px 0px 0px 60px;
+}
+#welcome .box h2 {
+  font-size: 90px;
+  color: #ffffff;
+  font-weight: 700;
+}
+#welcome .box .btn {
+  border: 1px solid #ffc800;
+  width: 222px;
+  height: 68px;
 }/*# sourceMappingURL=style.css.map */
