@@ -60,6 +60,9 @@ header .menu nav a:hover {
 
 #welcome {
   background-image: url("/assests/home.jpg");
-  background-position: center center;
+  background-position: center;
   background-size: cover;
+}
+#welcome .box {
+  height: 750px;
 }/*# sourceMappingURL=style.css.map */
