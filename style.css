@@ -31,4 +31,16 @@ header .menu nav a {
 header .menu nav a:hover {
   cursor: pointer;
   color: yellow;
+}
+
+#welcome {
+  background-image: url("../../../assests/home.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 750px;
+}
+#welcome .box {
+  position: absolute;
+  top: 60px;
 }/*# sourceMappingURL=style.css.map */
