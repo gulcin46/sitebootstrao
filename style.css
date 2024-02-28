@@ -16,17 +16,19 @@ header .menu {
   position: absolute;
   left: 0;
   background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 header .menu .imgbox {
-  position: absolute;
-  left: 20px;
-  bottom: 10px;
   width: 200px;
 }
-header .menu nav {
-  display: flex;
-  justify-content: flex-end;
-}
 header .menu nav a {
-  margin-left: 20px;
+  margin: 0px 27px 0px 15px;
+  font-weight: 100;
+  font-size: 18px;
+}
+header .menu nav a:hover {
+  cursor: pointer;
+  color: yellow;
 }/*# sourceMappingURL=style.css.map */
