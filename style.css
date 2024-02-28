@@ -65,4 +65,13 @@ header .menu nav a:hover {
 }
 #welcome .box {
   height: 750px;
+}
+#welcome .box .textbox h1 {
+  color: #ffffff;
+  font-size: 45px;
+}
+#welcome .box .textbox2 {
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
