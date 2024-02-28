@@ -18,12 +18,15 @@ header .menu {
   background-color: black;
 }
 header .menu .imgbox {
-  display: flex;
-  justify-content: center;
+  position: absolute;
+  left: 20px;
+  bottom: 10px;
   width: 200px;
 }
 header .menu nav {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 30px;
+}
+header .menu nav a {
+  margin-left: 20px;
 }/*# sourceMappingURL=style.css.map */
