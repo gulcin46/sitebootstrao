@@ -23,6 +23,17 @@ header .menu {
 header .menu .imgbox {
   width: 200px;
 }
+header .menu .btn {
+  color: #ffffff;
+  border: 2px solid grey;
+  padding: 3px;
+  opacity: 0.7;
+  display: none;
+  width: 80px;
+}
+header .menu .btn:hover {
+  border: 7px solid grey;
+}
 header .menu nav a {
   margin: 0px 27px 0px 15px;
   font-weight: 100;
@@ -32,32 +43,23 @@ header .menu nav a:hover {
   cursor: pointer;
   color: yellow;
 }
+@media screen and (max-width: 579px) {
+  header .menu {
+    height: 65px;
+  }
+}
+@media screen and (max-width: 963px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+    margin-left: 50px;
+  }
+}
 
 #welcome {
-  background-image: url("assests/home.jpg");
+  background-image: url("/assests/home.jpg");
+  background-position: center center;
   background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 750px;
-}
-#welcome .box {
-  position: absolute;
-  top: 267px;
-  /* z-index: 1; */
-  left: 674px;
-}
-#welcome .box h1 {
-  color: #ffffff;
-  font-size: 40px;
-  margin: 18px 0px 0px 60px;
-}
-#welcome .box h2 {
-  font-size: 90px;
-  color: #ffffff;
-  font-weight: 700;
-}
-#welcome .box .btn {
-  border: 1px solid #ffc800;
-  width: 222px;
-  height: 68px;
 }/*# sourceMappingURL=style.css.map */
