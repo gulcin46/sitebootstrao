@@ -66,12 +66,22 @@ header .menu nav a:hover {
 #welcome .box {
   height: 750px;
 }
+#welcome .box .textbox {
+  text-align: center;
+  color: #ffffff;
+  font-size: 70px;
+  font-weight: 700;
+}
 #welcome .box .textbox h1 {
   color: #ffffff;
   font-size: 45px;
 }
-#welcome .box .textbox2 {
+#welcome .box .btn {
+  border: 2px solid yellow;
+  background-color: yellow;
+  height: 100px;
+}
+#welcome .box .btn h3 {
+  font-size: 18p x;
   color: #ffffff;
-  font-size: 70px;
-  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */
