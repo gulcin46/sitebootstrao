@@ -16,9 +16,6 @@ header .menu {
   position: fixed;
   left: 0;
   background-color: #212529;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 header .menu .imgbox {
   width: 200px;
