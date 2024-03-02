@@ -54,6 +54,7 @@ header .menu nav a:hover {
     justify-content: space-between;
   }
   header .menu .imgbox {
+    margin-left: 10px;
     width: 150px;
   }
   header .menu nav {
@@ -65,7 +66,7 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 768px) {
   header .menu .imgbox {
-    margin-left: 10px;
+    margin-left: 40px;
     width: 150px;
   }
   header .menu nav {
