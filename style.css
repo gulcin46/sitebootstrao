@@ -65,7 +65,7 @@ header .menu nav a:hover {
 }
 @media screen and (max-width: 768px) {
   header .menu .imgbox {
-    margin-left: 40px;
+    margin-left: 10px;
     width: 150px;
   }
   header .menu nav {
@@ -73,7 +73,7 @@ header .menu nav a:hover {
   }
   header .menu .btn {
     display: flex;
-    margin-right: 20px;
+    margin-right: 10px;
   }
 }
 @media screen and (max-width: 992px) {
