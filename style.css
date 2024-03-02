@@ -34,7 +34,7 @@ header .menu .btn {
   margin: 10px;
 }
 header .menu .btn .icon {
-  margin-left: 10px;
+  margin: 0px 5px;
 }
 header .menu .btn:hover {
   border: 7px solid grey;
@@ -48,13 +48,28 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 280px) {
   header .menu {
+    height: 120px;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: flex-start;
   }
   header .menu .imgbox {
     margin-left: 40px;
+    width: 150px;
+  }
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .menu .imgbox {
+    margin-left: 40px;
+    width: 150px;
   }
   header .menu nav {
     display: none;

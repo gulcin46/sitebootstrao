@@ -20,7 +20,7 @@ header
             display: none
             margin: 10px
             .icon
-                margin-left: 10px
+                margin: 0px 5px
 
             &:hover
                 border: 7px solid grey
@@ -32,12 +32,26 @@ header
                 &:hover
                     cursor: pointer
                     color: #ffc800
-    @media screen and ( max-width: 768px)
+
+    @media screen and ( max-width: 280px)
         .menu
+            height: 120px
             display: flex
-            justify-content: space-between
+            justify-content: flex-start
+            align-items: flex-start
             .imgbox
                 margin-left: 40px
+                width: 150px
+            nav
+                display: none
+            .btn
+                display: flex
+
+    @media screen and ( max-width: 768px)
+        .menu
+            .imgbox
+                margin-left: 40px
+                width: 150px
             nav
                 display: none
             .btn
