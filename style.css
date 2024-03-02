@@ -31,6 +31,10 @@ header .menu .btn {
   opacity: 0.5;
   border-radius: 10px;
   display: none;
+  margin: 10px;
+}
+header .menu .btn .icon {
+  margin-left: 10px;
 }
 header .menu .btn:hover {
   border: 7px solid grey;
@@ -60,6 +64,15 @@ header .menu nav a:hover {
     margin-right: 20px;
   }
 }
+@media screen and (max-width: 992px) {
+  header .menu nav {
+    display: none;
+  }
+  header .menu .btn {
+    display: flex;
+  }
+}
+
 #welcome {
   background-image: url("/assests/home.jpg");
   background-position: center;
