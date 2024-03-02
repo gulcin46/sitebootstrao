@@ -41,21 +41,6 @@ header .menu nav a:hover {
   cursor: pointer;
   color: #ffc800;
 }
-@media screen and (max-width: 579px) {
-  header .menu {
-    height: 65px;
-  }
-}
-@media screen and (max-width: 963px) {
-  header .menu nav {
-    display: none;
-  }
-  header .menu .btn {
-    display: flex;
-    margin-left: 50px;
-  }
-}
-
 #welcome {
   background-image: url("/assests/home.jpg");
   background-position: center;
