@@ -2,11 +2,13 @@ body {
   font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
-
-.imgbox {
+body section {
+  padding: 100px 0px 50px 0px;
+}
+body section .imgbox {
   overflow: hidden;
 }
-.imgbox img {
+body section .imgbox img {
   width: 100%;
 }
 
@@ -114,4 +116,17 @@ header .menu nav a:hover {
 #welcome .box .btn h3 {
   font-size: 21px;
   color: #ffffff;
+}
+
+#services {
+  padding: 70px 0px 0px 0px;
+}
+#services h1 {
+  font-size: 66px;
+  font-weight: 700;
+  margin: 39px 0px 20px 0px;
+}
+#services h3 {
+  font-size: 20px;
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
