@@ -131,7 +131,7 @@ header .menu nav a:hover {
   color: grey;
   margin-bottom: 60px;
 }
-#services .box .icon {
+#services .box .minibox .icon {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -152,4 +152,21 @@ header .menu nav a:hover {
   font-size: 20px;
   line-height: 28px;
   color: #b3b0b0;
+}
+@media screen and (max-width: 1199px) {
+  #services .box .minibox {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 768px) {
+  #services .box {
+    display: flex;
+    flex-direction: column;
+  }
+  #services .box .minibox {
+    display: flex;
+    justify-content: center;
+  }
 }/*# sourceMappingURL=style.css.map */

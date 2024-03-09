@@ -9,17 +9,18 @@
         color: grey
         margin-bottom: 60px
     .box
-        .icon
-            display: flex
-            justify-content: center
-            align-items: center
-            font-size: 69px
-            color: #ffffff
-            background-color: #ffc800
-            width: 135px
-            height: 130px
-            border-radius: 50%
-            margin-left: 130px
+        .minibox
+            .icon
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 69px
+                color: #ffffff
+                background-color: #ffc800
+                width: 135px
+                height: 130px
+                border-radius: 50%
+                margin-left: 130px
         .textbox
             h2
                 font-size: 30px
@@ -31,5 +32,19 @@
                 color: #b3b0b0
     @media screen and ( max-width: 1199px )
         .box
-            .icon
-                
+
+            .minibox
+                width: 300px
+                display: flex
+                justify-content: space-between
+
+                    // margin-left: 30px
+    @media screen and ( max-width: 768px )
+        .box
+            display: flex
+            flex-direction: column
+
+            .minibox
+              
+                display: flex
+                justify-content: center
