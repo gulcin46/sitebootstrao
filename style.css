@@ -175,10 +175,28 @@ header .menu nav a:hover {
   background-color: #f8f9fa;
 }
 #portfolio h1 {
-  font-size: 60px;
+  font-size: 45px;
   font-weight: 700;
+  margin: 63px 17px 4px 0px;
 }
-#portfolio h3 {
-  color: #9b9595;
-  margin: 25px 0px 40px 0px;
+#portfolio h2 {
+  font-size: 19px;
+}
+#portfolio .box {
+  width: 408px;
+  height: 414px;
+  background-color: #ffffff;
+  margin: 28px 0px 0px 0px;
+}
+#portfolio .box .textbox {
+  text-align: center;
+}
+#portfolio .box .textbox h2 {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 15px 0px 10px 0px;
+}
+#portfolio .box .textbox h3 {
+  font-size: 20px;
+  color: #8b8686;
 }/*# sourceMappingURL=style.css.map */
