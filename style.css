@@ -179,11 +179,11 @@ header .menu nav a:hover {
   font-weight: 700;
   margin: 63px 17px 4px 0px;
 }
-#portfolio h2 {
+#portfolio h3 {
   font-size: 19px;
+  color: #a9a0a0;
 }
 #portfolio .box {
-  width: 408px;
   height: 414px;
   background-color: #ffffff;
   margin: 28px 0px 0px 0px;
@@ -191,12 +191,12 @@ header .menu nav a:hover {
 #portfolio .box .textbox {
   text-align: center;
 }
-#portfolio .box .textbox h2 {
+#portfolio .box .textbox h4 {
   font-weight: 700;
   font-size: 30px;
   margin: 15px 0px 10px 0px;
 }
-#portfolio .box .textbox h3 {
+#portfolio .box .textbox h5 {
   font-size: 20px;
   color: #8b8686;
 }/*# sourceMappingURL=style.css.map */
