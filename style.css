@@ -160,7 +160,7 @@ header .menu nav a:hover {
     justify-content: space-between;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 576px) {
   #services .box {
     display: flex;
     flex-direction: column;
@@ -199,4 +199,24 @@ header .menu nav a:hover {
 #portfolio .box .textbox h5 {
   font-size: 20px;
   color: #8b8686;
+}
+@media screen and (max-width: 992px) {
+  #portfolio .box .imgbox {
+    width: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #portfolio .textbox h4 {
+    font-size: 40px;
+  }
+  #portfolio .textbox h5 {
+    font-size: 18px;
+    margin-bottom: 35px;
+  }
+  #portfolio .box {
+    margin-bottom: 60px;
+  }
+  #portfolio .box .imgbox {
+    width: auto;
+  }
 }/*# sourceMappingURL=style.css.map */
