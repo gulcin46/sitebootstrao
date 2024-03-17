@@ -219,4 +219,13 @@ header .menu nav a:hover {
   #portfolio .box .imgbox {
     width: auto;
   }
+}
+
+#about h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+#about h3 {
+  color: #a49e9e;
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */
