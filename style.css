@@ -228,4 +228,9 @@ header .menu nav a:hover {
 #about h3 {
   color: #a49e9e;
   font-size: 25px;
+}
+#about .box {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
