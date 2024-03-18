@@ -290,4 +290,8 @@ header .menu nav a:hover {
 
 #team {
   background-color: #e2d9d9;
+}
+#team .box .imgbox {
+  width: 100px;
+  height: 100px;
 }/*# sourceMappingURL=style.css.map */
