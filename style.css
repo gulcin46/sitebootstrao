@@ -229,8 +229,17 @@ header .menu nav a:hover {
   color: #a49e9e;
   font-size: 25px;
 }
+#about .textbox {
+  width: 350px;
+}
 #about .box {
   width: 160px;
   height: 160px;
+  border-radius: 50%;
+  border: 10px solid #706d6d;
+}
+#about .box .imgbox {
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
 }/*# sourceMappingURL=style.css.map */
