@@ -222,24 +222,68 @@ header .menu nav a:hover {
 }
 
 #about h2 {
-  font-size: 60px;
   font-weight: 700;
+  font-size: 40px;
 }
 #about h3 {
-  color: #a49e9e;
-  font-size: 25px;
+  font-size: 20px;
+  margin: 10px 0px 0px 0px;
+}
+#about .textbox, #about .textbox2 {
+  width: 420px;
+  height: 162px;
+  line-height: 30px;
+}
+#about .textbox h1, #about .textbox h2, #about .textbox2 h1, #about .textbox2 h2 {
+  font-size: 29px;
+  font-weight: 700;
+}
+#about .textbox h3, #about .textbox2 h3 {
+  font-size: 20px;
+  text-align: center;
 }
 #about .textbox {
-  width: 350px;
+  position: relative;
+  left: 146px;
+  top: 58px;
+}
+#about .box, #about .box2 {
+  width: 158px;
+  height: 162px;
+  border-radius: 80px;
+  background-color: #c1baba;
+  margin-bottom: 186px;
+  z-index: -1;
+}
+#about .box .imgbox, #about .box2 .imgbox {
+  width: 146px;
+  height: 151px;
+  border-radius: 99px;
+  position: relative;
+  top: 6px;
+  left: 5px;
 }
 #about .box {
-  width: 160px;
-  height: 160px;
-  border-radius: 50%;
-  border: 10px solid #706d6d;
+  position: relative;
+  right: 85px;
+  top: 90px;
 }
-#about .box .imgbox {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+#about .box2 {
+  position: relative;
+  left: 560px;
+  top: 90px;
+}
+#about .box2 .end {
+  background-color: #ffc800;
+}
+#about .box2 .end h1 {
+  font-size: 36px;
+  font-weight: 700;
+  margin-top: 33px;
+  color: #ffffff;
+}
+#about .textbox2 {
+  position: relative;
+  left: 747px;
+  top: 80px;
 }/*# sourceMappingURL=style.css.map */
