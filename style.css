@@ -382,4 +382,24 @@ header .menu nav a:hover {
   #team .textbox p {
     padding: 0;
   }
+}
+#sponsors {
+  padding: 60px 0;
+}
+#sponsors .box {
+  padding: 0 50px;
+}
+#sponsors .box .imgbox {
+  width: 120px;
+}
+#sponsors .box .microsoft {
+  width: 200px;
+}
+#sponsors .box .ibm {
+  width: 100px;
+}
+@media screen and (max-width: 576px) {
+  #sponsors .box .imgbox {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */
