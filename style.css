@@ -256,6 +256,10 @@ header .menu nav a:hover {
   color: #828080;
   line-height: 1.4;
 }
+#about .box .imgbox {
+  border-radius: 50%;
+  border: 5px solid #aaa4a4;
+}
 #about .right {
   justify-content: end;
   margin: 0 100px 100px 0;
@@ -266,6 +270,14 @@ header .menu nav a:hover {
 #about .yellow {
   display: flex;
   justify-content: center;
+}
+#about .story {
+  width: 153px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: yellow;
+  color: #ffffff;
+  border: 5px solid #aaa4a4;
 }
 #about .story .minibox {
   text-align: center;
