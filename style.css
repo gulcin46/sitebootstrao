@@ -424,7 +424,16 @@ header .menu nav a:hover {
   #team .textbox p {
     padding: 0;
   }
+  #team ul {
+    margin-bottom: 40px;
+  }
 }
+@media screen and (max-width: 992px) {
+  #team .textbox p {
+    font-size: 20px;
+  }
+}
+
 #sponsors {
   padding: 60px 0;
 }
