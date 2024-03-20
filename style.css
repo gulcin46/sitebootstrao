@@ -385,8 +385,8 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .yellow .story {
-    width: 100px;
-    height: 100px;
+    width: 125px;
+    height: 125px;
   }
   #about .yellow .story .minibox {
     padding: 0 15px;
@@ -527,9 +527,11 @@ header .menu nav a:hover {
   padding: 18px;
 }
 #contact .btn {
+  width: 200px;
+  height: 60px;
   background-color: #ffc021;
   opacity: 0.7;
-  color: white;
+  color: #ffffff;
 }
 @media screen and (max-width: 768px) {
   #contact .textbox {
