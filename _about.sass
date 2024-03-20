@@ -52,10 +52,33 @@
                 line-height: 1.2
     @media screen and ( max-width: 992px )
         .box
-            margin: 0 0 100px 0
+            margin: 0 0 80px 60px
             align-items: flex-start
+            margin-right: 40px
+            .imgbox
+                width: 100px
+                margin-right: 30px
             .textbox
                 width: 190px
+                margin-left: 20px
+        .right
+            align-items: flex-start
+
+            .imgbox
+                width: 100px
+            .textbox
+                width: 190px
+
+        .story
+            width: 100px
+            height: 100px
+            border-radius: 50%
+            .minibox
+                align-items: center
+                text-align: start
+                h2
+                    font-size: 15px
+                    font-weight: 400
 
     @media screen and ( max-width: 768px )
         .text-center
@@ -82,10 +105,13 @@
         .yellow
             justify-content: flex-start
             .story
+
                 width: 140px
                 height: 140px
                 .minibox
                     padding: 0 30px
+                    h2
+                        font-size: 20px
 
     @media screen and ( max-width: 576px )
         .text-center
