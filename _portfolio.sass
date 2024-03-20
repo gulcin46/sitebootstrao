@@ -1,30 +1,49 @@
 #portfolio
-
-    background-color: #f8f9fa
-    h1
-        font-size: 45px
-        font-weight: 700
-        margin: 63px 17px 4px 0px
-    h3
-        font-size: 19px
-        color: #a9a0a0
+    background-color: #acadaf16
+    .textbox
+        padding-top: 40px
+        text-align: center
+        h1
+            font-size: 45px
+            font-weight: 700
+        h3
+            font-size: 19px
+            color: #a9a0a0
+            margin: 10px 0px 50px 0px
+        h2
+            font-size: 29px
+            font-weight: 700
+            line-height: 1.2
+            margin-top: 13px
+        h4
+            font-size: 20px
+            color: #838489
     .box
-
-        height: 414px
-        background-color: #ffffff
-        margin: 28px 0px 0px 0px
+        margin-bottom: 30px
+        background-color: #ffff
+        padding-bottom: 20px
         .textbox
-            text-align: center
-            h4
-                font-weight: 700
-                font-size: 30px
-                margin: 15px 0px 10px 0px
-            h5
-                font-size: 20px
-                color: #8b8686
+            padding: 0
+        .imgbox
+            position: relative
+            .icon
+                width: 100%
+                display: flex
+                justify-content: center
+                align-items: center
+                font-size: 60px
+                color: #ffff
+                position: absolute
+                top: 0
+                bottom: 0
+                opacity: 0
+                &:hover
+                    background-color: #ffbb00
+                    opacity: 0.9
+                    transition: 0.5s
+                    cursor: pointer
     @media screen and ( max-width: 992px )
         .box
-
             .imgbox
                 width: auto
     @media screen and ( max-width: 576px )
@@ -38,3 +57,42 @@
             margin-bottom: 50px
             .imgbox
                 width: auto
+
+//     background-color: #f8f9fa
+//     h1
+//         font-size: 45px
+//         font-weight: 700
+//         margin: 63px 17px 4px 0px
+//     h3
+//         font-size: 19px
+//         color: #a9a0a0
+//     .box
+
+//         height: 414px
+//         background-color: #ffffff
+//         margin: 28px 0px 0px 0px
+//         .textbox
+//             text-align: center
+//             h4
+//                 font-weight: 700
+//                 font-size: 30px
+//                 margin: 15px 0px 10px 0px
+//             h5
+//                 font-size: 20px
+//                 color: #8b8686
+//     @media screen and ( max-width: 992px )
+//         .box
+
+//             .imgbox
+//                 width: auto
+//     @media screen and ( max-width: 576px )
+//         .textbox
+//             h1
+//                 font-size: 40px
+//             h3
+//                 font-size: 18px
+//                 margin-bottom: 35px
+//         .box
+//             margin-bottom: 50px
+//             .imgbox
+//                 width: auto
