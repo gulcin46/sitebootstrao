@@ -206,15 +206,15 @@ header .menu nav a:hover {
   }
 }
 @media screen and (max-width: 576px) {
-  #portfolio .textbox h4 {
+  #portfolio .textbox h1 {
     font-size: 40px;
   }
-  #portfolio .textbox h5 {
+  #portfolio .textbox h3 {
     font-size: 18px;
     margin-bottom: 35px;
   }
   #portfolio .box {
-    margin-bottom: 60px;
+    margin-bottom: 50px;
   }
   #portfolio .box .imgbox {
     width: auto;
@@ -533,7 +533,7 @@ header .menu nav a:hover {
   opacity: 0.7;
   color: #ffffff;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #contact .textbox {
     margin-top: 15px;
   }
