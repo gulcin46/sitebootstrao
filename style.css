@@ -545,11 +545,14 @@ header .menu nav a:hover {
   padding: 18px;
 }
 #contact .btn {
-  width: 200px;
-  height: 60px;
+  width: 238px;
+  height: 70px;
   background-color: #ffc021;
   opacity: 0.7;
   color: #ffffff;
+  margin-top: 20px;
+  font-size: 25px;
+  border-radius: 7px;
 }
 @media screen and (max-width: 992px) {
   #contact .textbox {
