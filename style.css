@@ -119,56 +119,37 @@ header .menu nav a:hover {
   color: #ffffff;
 }
 
-#services {
-  padding: 70px 0px 70px 0px;
+#services .textbox {
+  padding-bottom: 50px;
 }
-#services h1 {
+#services .textbox h1 {
   font-size: 66px;
   font-weight: 700;
-  margin: 39px 0px 20px 0px;
+  margin-bottom: 25px;
 }
-#services h3 {
-  font-size: 28px;
-  color: grey;
-  margin-bottom: 60px;
+#services .textbox h3 {
+  font-size: 23px;
+  color: #bbb7b7;
 }
-#services .box .minibox .icon {
+#services .box {
+  display: flex;
+  justify-content: center;
+}
+#services .box .icon {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 69px;
-  color: #ffffff;
+  border: 25px solid #ffc800;
   background-color: #ffc800;
-  width: 135px;
-  height: 130px;
   border-radius: 50%;
-  margin-left: 130px;
+  width: 133px;
+  height: 133px;
+  color: #ffffff;
+  font-size: 50px;
 }
-#services .box .textbox h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin: 30px 0px 25px 0px;
-}
-#services .box .textbox h4 {
-  font-size: 20px;
-  line-height: 28px;
-  color: #b3b0b0;
-}
-@media screen and (max-width: 1199px) {
-  #services .box .minibox {
-    width: 300px;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-@media screen and (max-width: 576px) {
-  #services .box {
-    display: flex;
-    flex-direction: column;
-  }
-  #services .box .minibox {
-    display: flex;
-    justify-content: center;
+@media screen and (max-width: 768px) {
+  #services .textbox {
+    padding: 0 0 50px;
   }
 }
 
