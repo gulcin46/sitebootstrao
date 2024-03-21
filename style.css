@@ -134,12 +134,12 @@ header .menu nav a:hover {
 #services .textbox h2 {
   font-size: 30px;
   font-weight: 700;
-  margin: 30px 0px 25px 0px;
+  margin: 30px 0px 20px 0px;
 }
 #services .textbox h4 {
   font-size: 20px;
   line-height: 28px;
-  color: #b3b0b0;
+  color: #b6b9b7;
 }
 #services .box {
   display: flex;
@@ -160,6 +160,15 @@ header .menu nav a:hover {
 @media screen and (max-width: 768px) {
   #services .textbox {
     padding: 0 0 50px;
+  }
+  #services .textbox h1 {
+    font-size: 55px;
+  }
+  #services .textbox h3 {
+    font-size: 18px;
+  }
+  #services .textbox h4 {
+    margin-bottom: 20px;
   }
 }
 
