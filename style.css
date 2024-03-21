@@ -552,7 +552,7 @@ header .menu nav a:hover {
   color: #ffffff;
   margin-top: 20px;
   font-size: 25px;
-  border-radius: 7px;
+  border-radius: 5px;
 }
 @media screen and (max-width: 992px) {
   #contact .textbox {
