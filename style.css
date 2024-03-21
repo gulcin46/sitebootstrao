@@ -387,9 +387,6 @@ header .menu nav a:hover {
     width: 140px;
     height: 140px;
   }
-  #about .yellow .story .minibox {
-    padding: 0 30px;
-  }
   #about .yellow .story .minibox h2 {
     font-size: 20px;
   }
@@ -412,8 +409,8 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .yellow .story {
-    width: 125px;
-    height: 125px;
+    width: 101px;
+    height: 96px;
   }
   #about .yellow .story .minibox {
     padding: 0 15px;
