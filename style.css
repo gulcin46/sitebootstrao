@@ -322,7 +322,7 @@ header .menu nav a:hover {
     margin-right: 40px;
   }
   #about .box .imgbox {
-    width: 100px;
+    width: 140px;
     margin-right: 30px;
   }
   #about .box .textbox {
@@ -333,14 +333,14 @@ header .menu nav a:hover {
     align-items: flex-start;
   }
   #about .right .imgbox {
-    width: 100px;
+    width: 140px;
   }
   #about .right .textbox {
     width: 190px;
   }
   #about .story {
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
     border-radius: 50%;
   }
   #about .story .minibox {
