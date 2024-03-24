@@ -264,7 +264,7 @@ header .menu nav a:hover {
   margin-bottom: 55px;
 }
 #about .text-center h1 {
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -356,8 +356,8 @@ header .menu nav a:hover {
     padding: 0 34px;
   }
   #about .story .minibox h2 {
-    font-size: 15px;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: 700;
   }
 }
 @media screen and (max-width: 768px) {
