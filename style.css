@@ -99,12 +99,13 @@ header .menu nav a:hover {
 }
 #welcome .box .textbox h1 {
   color: #ffffff;
-  font-size: 45px;
+  font-size: 38px;
   margin-bottom: 30px;
+  line-height: 10px;
 }
 #welcome .box .textbox h2 {
   color: #ffffff;
-  font-size: 98px;
+  font-size: 90px;
   font-weight: 700;
   margin: 23px 1px 15px 0px;
 }
@@ -117,6 +118,14 @@ header .menu nav a:hover {
 #welcome .box .btn h3 {
   font-size: 21px;
   color: #ffffff;
+}
+@media screen and (max-width: 576px) {
+  #welcome .box .textbox h1 {
+    font-size: 35px;
+  }
+  #welcome .box .textbox h2 {
+    font-size: 70px;
+  }
 }
 
 #services .textbox {
