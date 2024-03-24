@@ -353,8 +353,7 @@ header .menu nav a:hover {
     border-radius: 50%;
   }
   #about .story .minibox {
-    align-items: center;
-    text-align: start;
+    padding: 0 34px;
   }
   #about .story .minibox h2 {
     font-size: 15px;
@@ -397,7 +396,8 @@ header .menu nav a:hover {
     height: 140px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 700;
   }
 }
 @media screen and (max-width: 576px) {
@@ -418,14 +418,14 @@ header .menu nav a:hover {
     font-size: 18px;
   }
   #about .yellow .story {
-    width: 101px;
-    height: 96px;
+    width: 122px;
+    height: 122px;
   }
   #about .yellow .story .minibox {
     padding: 0 15px;
   }
   #about .yellow .story .minibox h2 {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
