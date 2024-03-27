@@ -559,13 +559,16 @@ header .menu nav a:hover {
   background-color: #ffc021;
   opacity: 0.7;
   color: #ffffff;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 25px;
   border-radius: 5px;
 }
 @media screen and (max-width: 992px) {
   #contact .textbox {
     margin-top: 15px;
+  }
+  #contact .place {
+    margin-top: 2px;
   }
 }
 @media screen and (max-width: 576px) {
