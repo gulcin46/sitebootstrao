@@ -273,11 +273,9 @@ header .menu nav a:hover {
 #about .box {
   display: flex;
   align-items: center;
-  margin: 0 0 100px 100px;
 }
 #about .box .textbox {
   width: 400px;
-  margin: 0 20px;
   text-align: end;
 }
 #about .box .textbox h2, #about .box .textbox h4 {
@@ -296,7 +294,6 @@ header .menu nav a:hover {
 }
 #about .right {
   justify-content: end;
-  margin: 0 100px 100px 0;
 }
 #about .right .textbox {
   text-align: start;
@@ -315,7 +312,6 @@ header .menu nav a:hover {
 }
 #about .story .minibox {
   text-align: center;
-  padding: 0 40px;
 }
 #about .story .minibox h2 {
   font-size: 40px;
